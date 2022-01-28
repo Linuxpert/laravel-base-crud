@@ -12,5 +12,9 @@
         <p>
             data uscita fumetto: {{$comic -> release_date}}
         </p>
+
+        <a href="{{ route('home') }}">
+            Torna alla home
+        </a>
     </div>
 @endsection
