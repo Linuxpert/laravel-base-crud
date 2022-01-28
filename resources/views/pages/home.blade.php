@@ -7,11 +7,12 @@
     @foreach ($comics as $comic)
         <ul>
             <b>
+                Fumetto:
                 <a href="{{ route('show', $comic -> id) }}">
                     {{$comic -> title}}
                 </a>
 
-                - {{$comic -> author}}
+                - autore:{{$comic -> author}}
             </b>
         </ul>
     @endforeach
